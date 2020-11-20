@@ -1,0 +1,7 @@
+/*----------------------------Hero Image*/
+
+.hero-image {
+    background: url("../images/hero.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
