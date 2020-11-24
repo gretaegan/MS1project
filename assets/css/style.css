@@ -1,7 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/*----------------------------Navbar
+.navbar-brand {
+    font-size: 30px;
+    font-weight: 400;
+    word-spacing: 8px;
+    letter-spacing: 4px;
+}
+
+.navbar li {
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+
+.navbar-text {
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    color: #fafafa;
+}
+
+
+
 /*----------------------------Hero Image*/
 
 .hero-image {
-    background: url("../images/hero.png");
-    background-repeat: no-repeat;
-    background-position: center;
+  background-image: url("../images/hero.png");
+  height: 800px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
+
+.hero-text-box , .hero-text-box h1 {
+    color: #fafafa;
+}
+
+.hero-text-box {
+    font-size: 100%;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-align: center;
+
+    width: 600px;
+    height: 400px;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+
+    background-color: rgba(32, 180, 248, 0.6);
+    top: 50px;
+    right: 100px;
+    position: absolute;
+}
+
+hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*----------------------------Footer*/
+
+.social-links li {
+    display: inline;
+    color: #fafafa;
+    padding: 50px;
+}
+
+.footer-headings {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    font-weight: 300;
+}
+
+footer {
+    color: #fafafa;
+    background-color: #343a40;
+    position: absolute;
+    bottom: 0;
+}
+
+.school-info {
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
