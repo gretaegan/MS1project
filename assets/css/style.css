@@ -41,29 +41,26 @@
     color: #fafafa;
 }
 
-.hero-text-box {
-    font-size: 100%;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    text-align: center;
-
-    width: 600px;
-    height: 400px;
-    padding-top: 50px;
-    padding-right: 10px;
-    padding-left: 15px;
-    padding-bottom: 15px;
-
-    background-color: rgba(32, 180, 248, 0.6);
-    top: 50px;
-    right: 100px;
-    position: absolute;
-}
 
 hr {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+.jumbotron {
+    background-color: rgba(32, 180, 248, 0.6);
+    padding: 20 20 20 20;
+
+}
+
+.jumbotron-header {
+    color: #fafafa;
+    font-size: 100%;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
 
 /*----------------------------Footer*/
 
@@ -82,16 +79,38 @@ hr {
     font-weight: 300;
 }
 
+
 footer {
     color: #fafafa;
     background-color: #343a40;
-    position: absolute;
-    bottom: 0;
 }
+
 
 .school-info {
     font-size: 15px;
     letter-spacing: 2px;
     text-align: center;
+}
+
+/*----------------------------Contact Page*/
+
+.contact-page-heading {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    font-weight: 300; 
+}
+
+.entry-needs {
+     font-size: 15px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.contact-school {
+   font-family: 'Roboto',sans-serif;
 }
 
