@@ -34,10 +34,10 @@
 <section>
  <div class="container-fluid">
   <div class="row">
-   <div class="col-sm-6">
-    <h2> Entry Requirements for Integrated Course 2021 : </h2>
-   <p> Due to the intensity and fast pace of the course, prospective students must have the following:
-    <ul>
+   <div class="col-sm-6 contact-back-right">
+    <h2 class="contact-header"> Entry Requirements for Integrated Course 2021 : </h2>
+   <p class="contact-text"> Due to the intensity and fast pace of the course, prospective students must have the following:
+    <ul class="contact-list">
        <li> Be at least 18 years of age prior to the starting date </li>
        <li> Be in possession of a Class 1 Medical Certificate </li>
        <li> Be proficient in mathematics and physics </li>
@@ -46,28 +46,35 @@
  <p> If entry requirements are satisfied, you will be contacted by phone or email to arrange an assessment and interview at our training facility in 
 Westing Airfield. Successful applicants will be offered a place on the course on completion </p>
    </div>
-  </div>
- </div>
-
- <div class="col-sm-6">
- <div class="row">
-  <form>
-   <div class="form-group">
-     <label for="fname">First Name</label>
-       <input type="text" id="firstname" name="firstname" placeholder="First Name" required>
-     <label for="lname">Last Name</label>
-       <input type="text" id="lastname" name="lastname" placeholder="Last Name" required>
-
-     <label for="email">Email Address</label>
-      <input type="email" id="email" name="email" placeholder="Email" required>
-
-     <label for="message">Message:</label>
-       <textarea id="message" placeholder="Course you are interested in"></textarea>
-
-      <button type="button" class="btn btn-secondary">Submit</button>
+    <div class="col-sm-6 contact-back-right">
+     <h3 class="contact-header">Apply Here : </h3>
+     <p class="contact-text">Leave your details, choice of course and any additional information regarding previous experience below and 
+     one of our team will get back to you shortly. </p>
+     <form class="contact-us-form">
+      <div class="form-group">
+        <label for="fname">Full Name : </label>
+        <input class="form-control" type="text" id="fname" name="fname" placeholder="Full Name" required>
+        </div>
+         <div class="form-group">
+          <label for="email">Email Address : </label>
+          <input class="form-control" type="email" id="email" name="email" placeholder="email" required>
+         </div>
+          <div class="form-group">
+           <label for="message">Additional Information : </label>
+           <textarea class="form-control"  rows="3" id="message"></textarea>
+          </div>
+           <div class="form-group">
+             <label for="courses">Courses : </label>
+               <select class="form-control" id="courses">
+                 <option>Integrated</option>
+                 <option>PPL</option>
+                 <option>CPL</option>
+                 <option>ME/IR</option>
+               </select>
+            </div>
+     </form>
     </div>
-   </form>
- </div>
+  </div>
  </div>
 </section>
 

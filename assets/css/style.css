@@ -94,7 +94,7 @@ footer {
 
 /*----------------------------Contact Page*/
 
-.contact-page-heading {
+.contact-header {
     font-family: 'Roboto', sans-serif;
     text-align: center;
     text-transform: uppercase;
@@ -102,6 +102,8 @@ footer {
     padding-bottom: 30px;
     padding-top: 20px;
     font-weight: 300; 
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .entry-needs {
@@ -114,3 +116,39 @@ footer {
    font-family: 'Roboto',sans-serif;
 }
 
+.contact-us-form {
+    margin: auto;
+    width: 300px;
+    padding-bottom: 40px;
+
+}
+
+.contact-text {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 30px;
+    padding-top: 20px; 
+    margin-top: 20px;
+    margin-bottom: 20px;  
+}
+
+.contact-list {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.contact-back-right {
+    background: url("../images/sunset.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fafafa;
+}
+
+.contact-back-left {
+    background: ur("../images/sunset.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fafafa;
+}
