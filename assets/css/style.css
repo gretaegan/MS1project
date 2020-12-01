@@ -163,10 +163,10 @@ footer {
     font-size: 15px;
     text-align: center;
     padding-bottom: 30px;
-    padding-top: 60px; 
-    margin-top: 60px;
-    padding-bottom: 40px;
-    margin-bottom: 40px;
+    padding-top:30px; 
+    margin-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .about-the-school h3 {
@@ -234,7 +234,7 @@ footer {
 }
 
 .image-two {
-    background: url("../images/sunset.png");
+    background: url("../images/selfie.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -257,10 +257,41 @@ footer {
     letter-spacing: 4px;
     word-spacing: 6px;
     font-size: 30px;
-    background-color: #343a40;
+    background-color: #adb2b8;
     color: #fafafa;
     padding-top: 40px;
     padding-bottom: 40px;
     text-transform: uppercase;
     text-align: center;
 }
+
+/*----------------------------Training*/
+
+.training-pic {
+    background: url("../images/fii.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    width: 100%;
+
+}
+
+.simulator-image-one {
+    background: url("../images/b737.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: np-repeat;
+    height: 400px;
+    width: 100%;
+}
+
+.simulator-image-two {
+    background: url("../images/sim.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: np-repeat;
+    height: 400px;
+    width: 100%;
+}
+
